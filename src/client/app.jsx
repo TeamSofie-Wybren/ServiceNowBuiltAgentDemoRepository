@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(135deg, #6B46C1, #9333EA)',
+      background: 'linear-gradient(135deg, #1E40AF, #3B82F6, #60A5FA)',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
