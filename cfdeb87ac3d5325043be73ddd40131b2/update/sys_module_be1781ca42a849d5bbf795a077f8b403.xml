@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:4c564616-2e1a-44ae-8abd-bb2b3a51dd38",
+  "metadata": {
+    "timestamp": "2025-11-22T14:16:22.644Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.0.2",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-sofbv-figma-test-run",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-sofbv-figma-test-run@1.0.0?sys_scope_id=cfdeb87ac3d5325043be73ddd40131b2",
+      "description": "Figma design test",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-sofbv-figma-test-run@1.0.0?sys_scope_id=cfdeb87ac3d5325043be73ddd40131b2"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-sofbv-figma-test-run@1.0.0?sys_scope_id=cfdeb87ac3d5325043be73ddd40131b2"
+    }
+  ]
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_sofbv_figma_test/x-sofbv-figma-test-run/1.0.0/bom.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>wybren.admin</sys_created_by>
+        <sys_created_on>2025-11-22 13:59:38</sys_created_on>
+        <sys_id>be1781ca42a849d5bbf795a077f8b403</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sofbv_figma_test/x-sofbv-figma-test-run/1.0.0/bom.json</sys_name>
+        <sys_package display_value="Figma Test Run" source="x_sofbv_figma_test">cfdeb87ac3d5325043be73ddd40131b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Figma Test Run">cfdeb87ac3d5325043be73ddd40131b2</sys_scope>
+        <sys_update_name>sys_module_be1781ca42a849d5bbf795a077f8b403</sys_update_name>
+        <sys_updated_by>wybren.admin</sys_updated_by>
+        <sys_updated_on>2025-11-22 13:59:38</sys_updated_on>
+    </sys_module>
+</record_update>
