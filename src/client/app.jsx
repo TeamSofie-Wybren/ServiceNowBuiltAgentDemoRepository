@@ -20,21 +20,21 @@ export default function App() {
         <h1 style={{
           fontSize: '2.5rem',
           fontWeight: '700',
-          color: '#1F2937',
+          color: '#1E40AF',
           margin: '0 0 20px 0'
         }}>
           Hello there!
         </h1>
         <p style={{
           fontSize: '1.25rem',
-          color: '#6B7280',
+          color: '#3B82F6',
           margin: '0 0 10px 0'
         }}>
           Welcome to our application
         </p>
         <p style={{
           fontSize: '1rem',
-          color: '#9CA3AF',
+          color: '#60A5FA',
           margin: '0'
         }}>
           We're glad to have you here
