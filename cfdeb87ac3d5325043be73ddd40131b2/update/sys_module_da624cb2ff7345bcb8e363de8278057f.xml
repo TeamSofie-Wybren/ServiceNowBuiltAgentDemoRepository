@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "name": "x-sofbv-figma-test-run",
+  "version": "1.0.0",
+  "description": "Figma design test",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.0.2",
+    "@servicenow/glide": "26.0.1",
+    "eslint": "8.50.0",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.2"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_sofbv_figma_test/x-sofbv-figma-test-run/1.0.0/package.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>wybren.admin</sys_created_by>
+        <sys_created_on>2025-11-22 13:59:38</sys_created_on>
+        <sys_id>da624cb2ff7345bcb8e363de8278057f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sofbv_figma_test/x-sofbv-figma-test-run/1.0.0/package.json</sys_name>
+        <sys_package display_value="Figma Test Run" source="x_sofbv_figma_test">cfdeb87ac3d5325043be73ddd40131b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Figma Test Run">cfdeb87ac3d5325043be73ddd40131b2</sys_scope>
+        <sys_update_name>sys_module_da624cb2ff7345bcb8e363de8278057f</sys_update_name>
+        <sys_updated_by>wybren.admin</sys_updated_by>
+        <sys_updated_on>2025-11-22 13:59:38</sys_updated_on>
+    </sys_module>
+</record_update>
